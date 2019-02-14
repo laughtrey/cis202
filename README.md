@@ -2,4 +2,5 @@
 
 ## Projects
 
-### 1
+### 1 Review
+>Just review classes and how they operate. Creating a student class and some functions.
