@@ -1,6 +1,6 @@
-# CIS 202 - Introduction to Programming 2
+# CIS 202 - Introduction to Programming 2 - Big C++ by Cay Horstmann
 
 ## Projects
 
-### 1 Review
->Just review classes and how they operate. Creating a student class and some functions.
+### 5 Review
+>Just review of Chapter 5 with classes and how they operate. Creating a student class and some functions.
