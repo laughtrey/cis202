@@ -5,7 +5,7 @@
 class Student
 {
 private:
-  int m_score_total, m_quiz_taken_total;
+  int m_total_score,m_quizzes_taken_amount;
   std::string m_name, m_grade;
 
 public:

@@ -12,5 +12,11 @@ Date of Creation:
 
 int main()
 {
+  Student Billy;
+  Billy.add_quiz(45);
+  Billy.add_quiz(66);
+  Billy.add_quiz(75);
+  Billy.add_quiz(94);
+  std::cout << Billy.get_average_score() << '\n';
    return 0;
 }

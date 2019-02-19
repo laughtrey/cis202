@@ -3,14 +3,15 @@
 #include "student.h"
 Student::Student()
 {
-  std::string m_name;
-  int m_score_total;
-  int m_quiz_taken_total;
+  m_name;
+  m_total_score;
+  m_quizzes_taken_amount = 0;
 }
 Student::Student(std::string name, int score)
 {
-  std::string m_name = name;
-  int m_score_total = score;
+  m_name = name;
+  m_total_score = score;
+  m_quizzes_taken_amount = 1;
 }
  std::string Student::get_name()
  {
@@ -18,23 +19,20 @@ Student::Student(std::string name, int score)
  }
  void Student::add_quiz(int score)
  {
-   int m_score = score;
+   m_total_score += score;
+   m_quizzes_taken_amount++;
  }
  int Student::get_total_score()
  {
-   //return m_total_score;
-   return 0;
+   return m_total_score;
  }
  int Student::get_average_score()
  {
-   return 0;
-   /*
-   return [m_score_total / quiz_taken_total];
-   */
+   return (m_total_score / m_quizzes_taken_amount);
  }
- void add_grade(std::string grade)
+ void Student::add_grade(std::string grade)
  {
-   std::string m_grade = grade;
+   m_grade = grade;
  }
  int Student::compute_gpa()
  {
