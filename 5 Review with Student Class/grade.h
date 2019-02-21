@@ -12,5 +12,6 @@ public:
   Grade ();
   Grade(std::string m_letter_grade);
   int gpa_conversion(std::string letter_grade);
+  int get_GPA_from_letter();
 };
 #endif

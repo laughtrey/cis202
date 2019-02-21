@@ -1,11 +1,11 @@
 #include "grade.h"
   Grade::Grade ()
   {
-
+    m_GPA;
   }
   Grade::Grade(std::string m_letter_grade)
   {
-
+    m_GPA = 0;
   }
   int Grade::gpa_conversion(std::string letter_grade)
   {
@@ -27,4 +27,8 @@
       m_GPA = 0;
     }
     return 0;
+  }
+  int Grade::get_GPA_from_letter()
+  {
+    return m_GPA;
   }

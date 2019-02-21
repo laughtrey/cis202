@@ -1,40 +1,41 @@
 #include <string>
 #include <iostream>
 #include "student.h"
-Student::Student()
-{
+#include "grade.h"
+ Student::Student()
+ {
   m_name;
-  m_total_score;
+  m_total_score = 0;
   m_quizzes_taken_amount = 0;
-}
-Student::Student(std::string name, int score)
-{
+ }
+ Student::Student(std::string name, int score)
+ {
   m_name = name;
-  m_total_score = score;
-  m_quizzes_taken_amount = 1;
-}
- std::string Student::get_name()
+  int m_score = score;
+  v.push_back(m_score);
+ }
+ const std::string Student::get_name()
  {
    return m_name;
  }
  void Student::add_quiz(int score)
  {
-   m_total_score += score;
-   m_quizzes_taken_amount++;
+   int m_score = score;
+   v.push_back(m_score);
  }
  int Student::get_total_score()
  {
+   for (size_t i = 0; i < v.size(); i++)
+   {
+     m_total_score += v[i];
+   }
    return m_total_score;
  }
- int Student::get_average_score()
+ const int Student::get_average_score()
  {
-   return (m_total_score / m_quizzes_taken_amount);
+   return (get_total_score() / v.size());
  }
  void Student::add_grade(std::string grade)
  {
    m_grade = grade;
- }
- int Student::compute_gpa()
- {
-   return 0;
  }
