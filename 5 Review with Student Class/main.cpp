@@ -17,6 +17,11 @@ int main()
   Billy.add_quiz(66);
   Billy.add_quiz(75);
   Billy.add_quiz(94);
+  Grade BillyGrade;
+  BillyGrade.gpa_conversion("B");
+  BillyGrade.gpa_conversion("C");
+  BillyGrade.gpa_conversion("A");
+  std::cout << BillyGrade.get_GPA_from_letter() << '\n';
   std::cout << Billy.get_average_score() << '\n';
    return 0;
 }
