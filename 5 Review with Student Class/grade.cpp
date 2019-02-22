@@ -6,34 +6,51 @@
    Date of Creation: 2/16/2019, 6:14:49 PM
  */
 #include "grade.h"
+/**
+ * Class Constructor
+ */
 Grade::Grade ()
 {
 	m_letter_grade;
 }
+/**
+ * Class Constuctor with parameter
+ * @param letter_grade the input letter grade
+ */
 Grade::Grade(std::string letter_grade)
 {
 	m_letter_grade = letter_grade;
 }
+/**
+ * Returns the member value of grade string.
+ * @return member value letter grade
+ */
 std::string Grade::get_grade()
 {
 	return m_letter_grade;
 }
-int Grade::gpa_conversion(std::vector<Grade> v) // Trouble is here
+/**
+ * Converts the vector of grades into a GPA
+ * @param  v A vector of grades to be averaged into GPA
+ * @param grade_total The sum of grades in the vector.
+ * @return   The averaged GPA
+ */
+int Grade::gpa_conversion(std::vector<Grade> v)
 {
-  int m_GPA = 0;
+  int grade_total = 0;
 	for (size_t i = 0; i < v.size(); i++)
   {
 		if (v[i].get_grade() == "A") {
-			m_GPA += 4;
+			grade_total += 4;
 		} else if (v[i].get_grade() == "B") {
-			m_GPA += 3;
+			grade_total += 3;
 		} else if (v[i].get_grade() == "C") {
-			m_GPA += 2;
+			grade_total += 2;
 		} else if (v[i].get_grade() == "D") {
-			m_GPA += 1;
+			grade_total += 1;
 		} else if (v[i].get_grade() == "F") {
-			m_GPA += 0;
+			grade_total += 0;
 		}
 	}
-  	return m_GPA / v.size();
+  	return grade_total / v.size();
 }

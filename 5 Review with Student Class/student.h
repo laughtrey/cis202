@@ -14,7 +14,6 @@
 class Student
 {
 private:
-Grade student_grades;
 int m_total_score, m_quizzes_taken_amount;
 std::string m_name, m_grade;
 std::vector<int> v;
