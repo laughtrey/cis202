@@ -4,4 +4,4 @@
 
 ### 5 Review
 >Just review of Chapter 5 with classes and how they operate. Creating a student class and some functions.
->This was a fun refresher!
+>This was a fun refresher! I'm also going to start here to strive to comment and document better.
