@@ -11,3 +11,6 @@
 ### 8 Inheritance and Polymorphism - March 1
 >This is a lot of fun. Deriving classes from base classes is like DLC for C++.
 >This was easy for me to grasp, but I'm still working out what a derived class can access, and I'm going to think hard when an object deserves it's own base class vs a derived one.
+### 14 Operator Overloading - March 11
+>Working on the default operators. Extracting a series of numbers and putting them in a vector is easy enough, the algorithm to multiply and then add to the next number
+>in a result-vector will be a challenge. 
