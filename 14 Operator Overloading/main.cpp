@@ -12,8 +12,8 @@ Date of Creation:
 
 int main()
 {
-  std::string s = "943499";
-  std::string t = "12345";
+  std::string s = "123456789";
+  std::string t = "987654321";
   BigInteger a(s);
   BigInteger b(t);
   std::cout << "A:" << '\n';

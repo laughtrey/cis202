@@ -1,6 +1,4 @@
 #include <iostream>
-#include <vector>
-#include <string>
 #include "biginteger.h"
 BigInteger::BigInteger()
 {
@@ -21,19 +19,20 @@ std::vector<int> BigInteger::get_int_vector()
 void BigInteger::list_int_vector()
 {
   for (size_t i = 0; i < m_v.size(); i++) {
-    std::cout << m_v[i] << '\n';
+    std::cout << m_v[i];
   }
+  std::cout << '\n';
 }
 
-BigInteger operator+(const BigInteger& a, const BigInteger& b)
+BigInteger operator+(const BigInteger& b)
 {
 
 }
-BigInteger operator-(const BigInteger& a, const BigInteger& b)
+BigInteger operator-(const BigInteger& b)
 {
 
 }
-BigInteger operator*(const BigInteger& a, const BigInteger& b)
+BigInteger operator*(const BigInteger& b)
 {
 
 }
