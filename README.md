@@ -13,4 +13,9 @@
 >This was easy for me to grasp, but I'm still working out what a derived class can access, and I'm going to think hard when an object deserves it's own base class vs a derived one.
 ### 14 Operator Overloading - March 11
 >Working on the default operators. Extracting a series of numbers and putting them in a vector is easy enough, the algorithm to multiply and then add to the next number
->in a result-vector will be a challenge. 
+>in a result-vector will be a challenge.
+### 16 Templates - March 18
+>Templates are really interesting, making functions or templatized classes that can work with any data type seem obvious to me now.
+### 12 Lists, Queues, and Stacks - March 25
+>I'm going to explore linked lists a bit more. I really like using the vector as a data container, it has a lot of useful built
+>in functions and it clicks with me, but after using arrays a bit more in Java I can see the benefit of other types and working with them.
