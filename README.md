@@ -19,3 +19,6 @@
 ### 12 Lists, Queues, and Stacks - March 25
 >I'm going to explore linked lists a bit more. I really like using the vector as a data container, it has a lot of useful built
 >in functions and it clicks with me, but after using arrays a bit more in Java I can see the benefit of other types and working with them.
+### -- Midterm - April 4
+>This was a simple-ish project. A lot easier than BigInteger for sure. It simulates an address book. I used vectors
+>instead of lists, since I'm still figuring those out. 
