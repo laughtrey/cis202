@@ -40,8 +40,8 @@ void AddressBook::search_the_address_book(const std::string& n) const
 		if (n == v[i]->get_name()) {
 			std::cout << v[i]->get_name() << " lives at: " << v[i]->get_address() << '\n';
 		}
-    // else  {
-		// 	std::cout << "Sorry, I couldn't find anyone by that name" << '\n';
+		// else  {
+		//      std::cout << "Sorry, I couldn't find anyone by that name" << '\n';
 		// }
 	}
 }
@@ -50,7 +50,7 @@ void AddressBook::change_the_address_book_name(const std::string& n, const std::
 	for (auto entries : v) {
 		if (entries->get_name() == n) {
 			entries->set_name(new_name);
-		}else  {
+		}else {
 			std::cout << "Sorry, I couldn't find that person in the address book. Make sure you entered their name correctly." << '\n';
 		}
 	}
@@ -60,7 +60,7 @@ void AddressBook::change_the_address_book_address(const std::string& n, const st
 	for (auto entries : v) {
 		if (entries->get_name() == n) {
 			entries->set_address(new_address);
-		}else  {
+		}else {
 			std::cout << "Sorry, I couldn't find that person in the address book. Make sure you entered their name correctly." << '\n';
 		}
 	}
