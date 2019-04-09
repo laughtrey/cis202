@@ -36,9 +36,9 @@ void AddressBook::manually_add_to_address_book()
 }
 void AddressBook::search_the_address_book(const std::string& n) const
 {
-	for (size_t i = 0; i < v.size(); i++) {
-		if (n == v[i]->get_name()) {
-			std::cout << v[i]->get_name() << " lives at: " << v[i]->get_address() << '\n';
+	for (auto entries : v) {
+		if (n == entries->get_name()) {
+			std::cout << entries->get_name() << " lives at: " << entries->get_address() << '\n';
 		}
 		// else  {
 		//      std::cout << "Sorry, I couldn't find anyone by that name" << '\n';

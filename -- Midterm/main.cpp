@@ -12,7 +12,6 @@
 #include "addresslisting.h"
 #include "addressbook.h"
 
-using namespace std;
 
 int main(int argc, char const *argv[])
 {
@@ -52,7 +51,7 @@ int main(int argc, char const *argv[])
 			std::cin >> answer;
 			if (answer == 1) {
 				std::cout << "What do you want to change their name to?" << '\n';
-				cin.ignore();
+				std::cin.ignore();
 				std::string new_name;
 				std::getline(std::cin, new_name);
 				MyBook.change_the_address_book_name(name, new_name);
@@ -69,25 +68,5 @@ int main(int argc, char const *argv[])
 			menu = false;
 		}
 	}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-	// AddressListing *Bob = new AddressListing("Bob","1234");
-	// MyBook.automatically_add_to_address_book(Bob);
-	// MyBook.list_the_address_book();
 	return 0;
 }
