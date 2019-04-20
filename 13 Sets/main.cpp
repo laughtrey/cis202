@@ -3,7 +3,7 @@
    Description:
    Author: Raymond Laughrey
    Email: raymonl4963@student.vvc.edu
-   Date of Creation:
+   Date of Creation: 4/20/2019, 3:21:12 AM
  */
 #include <iostream>
 #include <set>
@@ -29,9 +29,9 @@ void sieve_of_Eratosthenes(int n)
 	pos = sieve.begin();
 	while (pos != sieve.end()) {
 		int current = *pos++;
-		int remove = current + current;
+		int remove = pow(current,2);
 		while (remove <= n) {
-			sieve.erase(remove);
+			sieve.erase(remove); // These are the two most important lines, this is where each number multiplied by itself gets removed
 			remove += current;
 		}
 	}
