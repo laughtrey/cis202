@@ -2,9 +2,9 @@
 all: main
 
 
-main : main.cpp
+main : 
 	@echo "Making the executable -- some warnings can be safely ignored"
-	@g++ -o main -std=c++11 *.cpp
+	@g++ -o main *.cpp 
 
 run : main
 	@echo "Running the program:"
