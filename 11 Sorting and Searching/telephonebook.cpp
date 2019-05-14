@@ -60,6 +60,10 @@ std::string TelephoneBook::lookup_by_name(const std::string &name)
 {
 	sort_by_name();
 	int result = binary_search_name(v, 0, v.size() - 1, name);
+	if (result < 0) {
+		return ("That name does not exist");
+	}
+	else
 	return (v[result]->get_name() + "'s number is: " + v[result]->get_number());
 }
 /**
@@ -71,6 +75,10 @@ std::string TelephoneBook::lookup_by_number(const std::string &number)
 {
 	sort_by_number();
 	int result = binary_search_number(v, 0, v.size() - 1, number);
+	if (result < 0) {
+		return ("That number does not exist");
+	}
+	else
 	return ("The number " + v[result]->get_number() + " belongs to: " + v[result]->get_name());
 }
 /**
