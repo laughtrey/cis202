@@ -18,13 +18,11 @@ private:
 std::vector<Listing*> v;
 public:
 TelephoneBook(std::string filename);
-void populate();
 void print_telephone_book();
 void sort_by_name();
 void sort_by_number();
 std::string lookup_by_name(const std::string &name);
 std::string lookup_by_number(const std::string &number);
-std::string search(const std::string &key);
 int binary_search_name(const std::vector<Listing*> &v, int from, int to, const std::string &value);
 int binary_search_number(const std::vector<Listing*> &v, int from, int to, const std::string &value);
 
