@@ -32,5 +32,8 @@
 *.app
 main
 
+# Clang library location
+.clang_complete
+
 #Compiler Targets
 CMakeLists.txt

@@ -1,10 +1,11 @@
 #
+CXXFLAGS+=-IHeader -std=c++11
+CXXSOURCE=$(wildcard Source/*.cpp)
+CXXOBJS=$(patsubst %.cpp,%.o,$(CXXSOURCE))
 all: main
 
-
-main : main.cpp
-	@echo "Making the executable -- some warnings can be safely ignored"
-	@g++ -o main -std=c++11 *.cpp
+main: $(CXXOBJS)
+	    $(CXX) $(LDFLAGS) -o $@ $^
 
 run : main
 	@echo "Running the program:"
