@@ -23,10 +23,7 @@ void sieve_of_Eratosthenes(int n)
 	std::set<int>::iterator pos = sieve.begin();
 	for (int i = 2; i <= n; i++) {
 		sieve.insert(i);
-		if (pos != sieve.end())
-			pos++;
 	}
-	pos = sieve.begin();
 	while (pos != sieve.end()) {
 		int current = *pos++;
 		int remove = pow(current,2);
