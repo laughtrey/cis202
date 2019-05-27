@@ -39,3 +39,7 @@
 ### 11 Sorting and Searching - May 6
 >Sorting data containers and binary searching, a telephone lookup program with multiple ways to sort and search.
 >This may be one of the more intricate projects.
+
+### Qt Programming - May 20
+>Started the first Qt project today, which is a lot of fun. Just basic working with the window and design framework.
+>It's nice to finally be able to see code hooked up to a window instead of a command line.
