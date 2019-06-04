@@ -19,4 +19,11 @@ public:
   void pop();
   std::string top();
 };
+class EmptyStackError : public std::logic_error
+{
+public:
+  EmptyStackError(const char *reason) : std::logic_error(reason){
+
+  }
+};
 #endif
