@@ -6,13 +6,7 @@ Email: raymonl4963@student.vvc.edu
 Date of Creation: 5/3/2019, 12:21:19 AM
 */
 #include "safestack.h"
-class EmptyStackError : public std::logic_error
-{
-public:
-  EmptyStackError(const char *reason) : std::logic_error(reason){
 
-  }
-};
 SafeStack::SafeStack (){
   m_data;
 }
