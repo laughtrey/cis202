@@ -43,3 +43,7 @@
 ### Qt Programming - May 20
 >Started the first Qt project today, which is a lot of fun. Just basic working with the window and design framework.
 >It's nice to finally be able to see code hooked up to a window instead of a command line.
+
+### Final Project - June 3
+>The Final was a lot like the midterm, in fact all I really did was add more data fields. It was a little too easy,
+>I'm going to hook this up to Qt over the summer. I need to learn a framework already.
