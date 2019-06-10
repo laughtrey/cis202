@@ -1,0 +1,15 @@
+Bob
+1234 real st
+777-777-7777
+bob@bob.com
+bob.com
+Gary
+3456 fake st
+888-888-8888
+Gary@gary.com
+gary.com
+Trisha
+3333 weird st
+222-222-2222
+trisha@gmail.com
+visagelocation.com
