@@ -4,7 +4,7 @@
 ### Textbook: Big C++ by Cay Horstmann
 #### Final grade: A
 
-[Continued from CIS 201](https://laughtrey.github.io/cis202/)
+[Continued from CIS 201](https://laughtrey.github.io/cis201/)
 
 [Continued in CIS 206](https://laughtrey.github.io/cis206/)
 
