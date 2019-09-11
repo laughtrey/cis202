@@ -1,6 +1,11 @@
-# CIS 202 - Introduction to Programming 2 - Big C++ by Cay Horstmann
+# CIS 202 - Introduction to Programming 2
 
-## Final Grade: A
+### Spring '19
+### Textbook: Big C++ by Cay Horstmann
+#### Final grade: A
+
+[Continued from CIS 201](https://laughtrey.github.io/cis202/)
+[Continued in CIS 206](https://laughtrey.github.io/cis206/)
 
 ## Projects
 
