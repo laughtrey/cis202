@@ -5,6 +5,7 @@
 #### Final grade: A
 
 [Continued from CIS 201](https://laughtrey.github.io/cis202/)
+
 [Continued in CIS 206](https://laughtrey.github.io/cis206/)
 
 ## Projects
